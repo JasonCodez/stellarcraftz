@@ -1,0 +1,36 @@
+.Navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Navbar-logo {
+   width: 10%
+}
+
+@media only screen and (min-width: 280px) {
+   .Navbar {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .Navbar-logo {
+      width: 50%;
+      margin-top: 10px;
+   }
+ }
+
+.Navbar ul {
+   display: flex;
+   padding: 5px;
+   border-radius: 3px;
+   list-style-type: none;
+   gap: 10px;
+}
+
+.Navbar li {
+   border: 1px solid black;
+   padding: 5px;
+   border-radius: 3px;
+}
