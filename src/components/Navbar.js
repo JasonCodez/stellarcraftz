@@ -1,6 +1,6 @@
 // import logo from "../images/Stellar Craftz.png"
 import "../styles/Navbar.css"
-import logo from "../images/Stellar-Craftz.png"
+import logo from "../Stellar-Craftz.png"
 const Navbar = () => {
    return (
       <div className="Navbar">
