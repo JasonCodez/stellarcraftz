@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.Card {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   margin: 0 auto;
+   font-family: 'Roboto', sans-serif;
+}
+
+.Card-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 1px solid rgb(136, 136, 136);
+   border-radius: 5px;
+   box-shadow: 0px 0px 7px rgb(136, 136, 136);
+}
+
+.Card-image {
+   width: 150px;
+}
+
+.Card-info {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.Card-info p {
+   font-size: 2rem;
+   color: rgb(39, 151, 22);
+   text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+   .Card-image {
+      width: 100%;
+   }
+ }

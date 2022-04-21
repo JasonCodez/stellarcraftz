@@ -5,5 +5,16 @@
 }
 
 .App {
-   width: 1200px;
+   width: 100vw;
+}
+
+.App-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+   .App {
+      width: 100vw;
+   }
 }
