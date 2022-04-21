@@ -1,7 +1,6 @@
 .Navbar {
    display: flex;
-   background-color: rgb(169, 245, 255);
-   justify-content: space-between;
+   background: linear-gradient(45deg, #70ABAF, #99E1D9);
    align-items: center;
    padding: 20px;
    width: 100%;
@@ -11,21 +10,7 @@
 }
 
 .Navbar-logo {
-   width: 6rem;
-}
-
-.Navbar ul {
-   display: flex;
-   padding: 5px;
-   border-radius: 3px;
-   list-style-type: none;
-   gap: 10px;
-}
-
-.Navbar li {
-   border: 1px solid black;
-   padding: 5px;
-   border-radius: 3px;
+   width: 12rem;
 }
 
 @media only screen and (max-width: 500px) {

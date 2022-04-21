@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Card from "./components/Card";
+import Main from './components/Main';
 import data from "./itemData";
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Main />
       <div className='App-container'>
          {items}
       </div>
