@@ -55,6 +55,41 @@ a {
    }
    .Main li {
       margin: 0;
+   }
+}
 
+@media only screen and (max-width: 375px) {
+   .Main-section {
+      padding: 10px 0px;
+   }
+   .Main-title {
+      font-size: 1rem;
+   }
+   .Main ul {
+      display: flex;
+      margin: 0 auto;
+      gap: 15px;
+      font-size: .5rem;
+   }
+   .Main li {
+      margin: 0;
+   }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 500px) {
+   .Main-section {
+      padding: 10px 0px;
+   }
+   .Main-title {
+      font-size: 1.5rem;
+   }
+   .Main ul {
+      display: flex;
+      margin: 0 auto;
+      gap: 20px;
+      font-size: 1rem;
+   }
+   .Main li {
+      margin: 0;
    }
 }

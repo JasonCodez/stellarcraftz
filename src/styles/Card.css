@@ -63,7 +63,7 @@
    }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 350px) {
    .Card-image {
       width: 100%;
    }
