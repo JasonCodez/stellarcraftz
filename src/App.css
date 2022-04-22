@@ -17,4 +17,5 @@
 .App-container {
    display: flex;
    flex-wrap: wrap;
+   background-color: rgb(228, 228, 228);
 }
