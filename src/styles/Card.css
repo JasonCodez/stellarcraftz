@@ -22,13 +22,45 @@
 .Card-info {
    display: flex;
    flex-direction: column;
+   align-items: center;
+   width: 100%;
+   padding: 10px;
+   border: 2px solid #70ABAF;
+   background-color: #99E1D9;
+}
 
+.Card-info h3 {
+   color: #616161;
 }
 
 .Card-info p {
-   font-size: 2rem;
+   font-size: 1.2rem;
    color: rgb(39, 151, 22);
    text-align: center;
+}
+
+@media only screen and (min-width: 869px) {
+   .Card-image {
+      width: 175px;
+   }
+}
+
+@media only screen and (min-width: 1074px) {
+   .Card-image {
+      width: 200px;
+   }
+}
+
+@media only screen and (min-width: 1199px) {
+   .Card-image {
+      width: 250px;
+   }
+}
+
+@media only screen and (min-width: 1449px) {
+   .Card-image {
+      width: 275px;
+   }
 }
 
 @media only screen and (max-width: 450px) {
