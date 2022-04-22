@@ -11,7 +11,6 @@ const Main = () => {
                <li><a href="#">Spotify Frames</a></li>
             </ul>
          </section>
-         
       </main>
    )
 }

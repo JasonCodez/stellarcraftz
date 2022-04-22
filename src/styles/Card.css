@@ -25,17 +25,18 @@
    align-items: center;
    width: 100%;
    padding: 10px;
-   border: 2px solid #70ABAF;
-   background-color: #99E1D9;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background-color: #70ABAF;
 }
 
 .Card-info h3 {
-   color: #616161;
+   color: #ffffff;
 }
 
 .Card-info p {
    font-size: 1.2rem;
-   color: rgb(39, 151, 22);
+   color: rgb(8, 62, 0);
    text-align: center;
 }
 
