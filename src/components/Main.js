@@ -1,15 +1,14 @@
 import "../styles/Main.css"
+import { NavLink } from "react-router-dom";
 
 const Main = () => {
    return (
       <main className="Main">
          <section className="Main-section">
-            <h1 className="Main-title">Custom Craftz made to order</h1>
-            <ul>
-               <li><a href="#">3D Art</a></li>
-               <li><a href="#">Mugs</a></li>
-               <li><a href="#">Spotify Frames</a></li>
-            </ul>
+            <NavLink exact to="/mugs">Mugs</NavLink>
+            <NavLink exact to="/3dart">Shadow-box Art</NavLink>
+            <NavLink exact to="/spotify-frames">Spotify Frames</NavLink>
+            <NavLink exact to="/custom-form">Customize your product</NavLink>
          </section>
       </main>
    )

@@ -1,7 +1,6 @@
-.Navbar {
+.Header {
    display: flex;
    background: linear-gradient(45deg, #70ABAF, #99E1D9);
-   align-items: center;
    padding: 20px;
    width: 100%;
    margin: 0 auto;
@@ -9,19 +8,25 @@
    z-index: 1;
 }
 
-.Navbar-logo {
+.Header-logo {
    width: 12rem;
 }
 
-@media only screen and (max-width: 500px) {
-   .Navbar {
+.Header li {
+   font-size: 1.5rem;
+   color: #ffffff;
+}
+
+
+@media only screen and (max-width: 580px) {
+   .Header {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       gap: 20px;
       width: 100vw;
    }
 
-   .Navbar-logo {
+   .Header-logo {
       width: 150px;
       margin-top: 10px;
    }

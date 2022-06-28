@@ -12,11 +12,6 @@
    border-radius: 5px;
 }
 
-.Main-title {
-   color: white;
-   font-size: 2rem;
-}
-
 .Main ul {
    align-self: flex-end;
    border-radius: 3px;
@@ -63,9 +58,6 @@ a {
    .Main-section {
       padding: 10px 0px;
    }
-   .Main-title {
-      font-size: 1rem;
-   }
    .Main ul {
       display: flex;
       margin: 0 auto;
@@ -80,9 +72,6 @@ a {
 @media only screen and (min-width: 376px) and (max-width: 500px) {
    .Main-section {
       padding: 10px 0px;
-   }
-   .Main-title {
-      font-size: 1.5rem;
    }
    .Main ul {
       display: flex;

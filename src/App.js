@@ -1,25 +1,28 @@
-import Navbar from './components/Navbar';
-import Card from "./components/Card";
+import Header from './components/Header';
 import Main from './components/Main';
-import data from "./itemData";
+import Mugs from './components/Mugs';
+import mugData from "./mugData";
 import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
-  const items = data.map(item => {
-     return <Card 
-               key={item.id}
-               img={item.img}
-               name={item.name}
-               price={item.price}
-            />
-  })
+//   const items = mugData.map(item => {
+//      return <Card 
+//                key={item.id}
+//                img={item.img}
+//                name={item.name}
+//                price={item.price}
+//             />
+//   })
   return (
     <div className="App">
-      <Navbar />
-      <Main />
-      <div className='App-container'>
-         {items}
-      </div>
+      <BrowserRouter>
+         <Header />
+         <Main />
+         <div className='App-container'>
+            <Mugs />
+         </div>
+      </BrowserRouter>
       
     </div>
   );
